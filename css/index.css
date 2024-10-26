@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.anav{
+    font-family: Staatliches, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 210%;
+    font-weight: 100;
+    padding: 4%;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.tx_main{
+    margin: 0 10%;
+}
+
+h3{
+    font-family: Staatliches, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 500%;
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav {
+    border: 3px solid green;
+    padding-top: 2%;
+    background-image:url(img/fondo.jpeg);
+    background-size: cover; /*para cubrir todo el nav */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1500px;
+    position: relative;
+}
+
+._menu{
+    border: 3px solid green;
+    padding-top: 30%;
+    background-image: url('img/gin.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+._nosotros {
+    border: 3px solid green;
+    padding-top: 30%;
+    background-image: url('img/corona.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+._cumpleaños{
+    border: 3px solid green;
+    padding-top: 20%;
+    background-image: url(img/cumpleañ.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+._ubicacion{
+    border: 3px solid green;
+    height: 500px;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_container_seccion{
+    background-color: green;
+    padding: 5% 10%; /* Espacio alrededor del texto */
+    border-radius: 5px;
+    color: whitesmoke;
+    opacity: 0.6;
+}
+
+.inicio_container {
+    text-align: center;
+    padding: 15%;
+    font-size: 2.5vw;
+    background-size: cover;
+}
+
+.inicio_texto {
+    border: 4px solid var(--4);
+    border-radius: 5px;
+    margin: 5%;
+    padding: 5%;
+    font-family: Staatliches, Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    background: green;
+    opacity: 0.6;
+}
+
+p{
+    font-family: Staatliches, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: whitesmoke;  
+}
+
+._footer {
+    padding-inline: 10%;
+    padding-top: 5%;
+    background: green;
+    height: 80px;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconos_footer {
+    display: flex;
+    gap: 30%; /* Para regular el espacio entre los íconos */
+}
+
+.a_footer {
+    text-decoration: none; /* Sacar el subrayado */
+}
+
+/* Otra manera de llamar a las etiquetas i del footer */
+._footer i {
+    font-size: 150%;
+    color: whitesmoke;
+}
+
+.btn-flotante {
+    position: fixed; /* Fijar el boton */
+    bottom: 5%;
+    right: 2%; 
+    z-index: 1000; /* que esté siempre por encima*/
+}
+
+.container_flex{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 2%;
+    flex-wrap: nowrap;
+}
+
+.tx_main_eventos{
+    margin: 0 80px;
+    text-align: center; 
+}
+
+.seccion{
+    border: 3px solid green;
+}
+
+.item_flex {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 35%;
+    font-size: 250%;
+    text-align: center;
+}
+
+.eventos_a{
+    color: green;
+    font-family: 'Staatliches', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img_eventos{
+    width:75%;
+}
